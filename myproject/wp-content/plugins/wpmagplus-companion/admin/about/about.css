@@ -1,0 +1,80 @@
+.main-info{display: flex;background: #2d2c43;padding: 30px;margin:20px 20px 20px 0;color: #fff;}
+/*.main-info .main-info-image{width: 30%;}*/
+.main-info  img{max-width: 100%;}
+.main-info a.link{color: #56D6BE;}
+.main-info a.link:hover{text-decoration: none;}
+.main-info .main-info-detail{width: 60%;color: #fff;padding-right: 5%;}
+.main-info .video-tutorial{width: 40%;}
+.main-info .main-info-detail h1{color: #fff;}
+.main-info h1{font-size: 2.5rem;margin-top: 10px;}
+.main-info h2{color: #fff;font-size: 1.5rem;}
+
+.upgrade-to-pro{display: flex;margin-top:45px;}
+.upgrade-to-pro .upgrade-image{width: 50%;}
+.upgrade-to-pro .upgrade-text{width: 50%;margin-left: 30px;}
+
+
+.top-wrapper{display: flex;margin-right: 20px;}
+.get-started-info{width: 75%;}
+.get-started-info .dashicons-no{color: #ea105b;}
+.get-started-info .dashicons-yes{color: #46b450;}
+.das-wrap{
+    margin-top: 52px;
+    width: 25%;
+    margin-left:30px;
+    padding: 20px 30px;
+    background:#fff;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.5);
+    -webkit-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.5);
+    -moz-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.5);
+    -ms-box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.5);
+    border-radius:8px;
+}
+.das-wrap img{width: 100%;border: 1px solid #eee;padding: 5px;}
+
+.pull-right{
+    float: right;
+}
+.btn{
+    display: inline-block;
+    padding: .95rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 2px solid;
+}
+
+.btn-primary {
+    background: #6A41DD;
+    color: #fff;
+    border-color: transparent;
+    border: none;
+}
+/*.btn-secondary {
+    background: #fff;
+    color: #333;
+    border-color: #dedede;
+}*/
+.btn-primary:focus, 
+.btn-primary:hover {
+    background: #eee;
+    color: #676E8B;
+}
+.btn-success{
+    background: #F21071;
+    color: #fff;
+    border: none;
+}
+/*.btn-secondary:focus, 
+.btn-secondary:hover {
+    background: #fff;
+    color: #7D5BA6;
+    border-color: #7D5BA6;
+}*/
+.btn-success:focus, 
+.btn-success:hover {
+    background: #eee;
+    color: #676E8B;
+}
